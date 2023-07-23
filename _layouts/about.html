@@ -46,17 +46,22 @@ layout: default
             {%- include news.html limit=true %}
           {%- endif %}
 
-          <!-- Latest posts -->
+          {% comment %}
+          <!-- Liu: comment out Latest posts -->
           {% if page.latest_posts -%}
             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
+          {% endcomment %}
 
-          <!-- Selected papers -->
+
+          {% comment %}
+          <!-- Liu: comment out Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
+          {% endcomment %}
 
           <!-- Social -->
           {%- if page.social %}
