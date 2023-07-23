@@ -1,0 +1,9 @@
+- name: Dan Li
+  image: danli.jpg
+  affiliation: Baruch University
+  website: https://twitter.com/danli_o?lang=en
+- name: Student Two
+  image: student-two.jpg
+  affiliation: University of ABC
+  website: http://studenttwo.com
+# Add more students as needed
