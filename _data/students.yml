@@ -2,8 +2,10 @@
   image: danli.jpg
   affiliation: Baruch University
   website: https://twitter.com/danli_o?lang=en
-- name: Student Two
-  image: student-two.jpg
-  affiliation: University of ABC
-  website: http://studenttwo.com
+  status: current
+- name: Ryan O'Loughlin
+  image: Ryan-OLoughlin.jpg
+  affiliation: School of Social Sciences, Queens College
+  website: https://hpsc.indiana.edu/news-events/news/ryan-oloughlin.html
+  status: past
 # Add more students as needed
